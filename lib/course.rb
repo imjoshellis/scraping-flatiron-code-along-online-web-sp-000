@@ -8,7 +8,7 @@ class Course
   end
 
   def self.reset_all
-    self.all = []
+    all = []
   end
 
   def initialize
