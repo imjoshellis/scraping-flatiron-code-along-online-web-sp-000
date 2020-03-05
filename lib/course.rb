@@ -7,6 +7,10 @@ class Course
     @@all
   end
 
+  def self.reset_all
+    self.all = []
+  end
+
   def initialize
     self.class.all << self
   end
